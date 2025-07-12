@@ -14,4 +14,4 @@
            with:
              name: 'GitHub User'
          - name: Display output
-           run: echo "Greeting: ${{ steps.test.outputs.greeting }}"
+           run: echo "Greeting: ${{ steps.test.output.greeting }}"

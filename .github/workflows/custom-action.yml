@@ -10,7 +10,7 @@
          - name: Checkout repo
            uses: actions/checkout@v4
          - name: Run custom action
-           uses: wciscato/barum@v0.0.1
+           uses: wciscato/barum@v0.0.3
            with:
              name: 'GitHub User'
          - name: Display output

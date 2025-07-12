@@ -10,7 +10,6 @@
          - name: Checkout repo
            uses: actions/checkout@v4
          - name: Run custom action
-           id: test
            uses: wciscato/barum@v0.0.1
            with:
              name: 'GitHub User'

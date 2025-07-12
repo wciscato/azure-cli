@@ -8,9 +8,9 @@
        runs-on: ubuntu-latest
        steps:
          - name: Checkout repo
+           id: test
            uses: actions/checkout@v4
          - name: Run custom action
-           id: test
            uses: wciscato/barum@v0.0.3
            with:
              name: 'GitHub User'

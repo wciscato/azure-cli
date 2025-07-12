@@ -11,8 +11,8 @@
            uses: actions/checkout@v4
          - name: Run custom action
            id: test
-           uses: wciscato/barum@v0.0.3
+           uses: wciscato/barum@v0.0.1
            with:
-             name: 'GitHub User wciscato'
+             name: 'GitHub User'
          - name: Display output
-           run: echo "Greeting ${{ steps.test.outputs.greeting }}"
+           run: echo "Greeting: ${{ steps.test.outputs.greeting }}"
